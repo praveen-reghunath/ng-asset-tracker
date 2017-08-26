@@ -4,11 +4,12 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxy.conf.json | node backend/backend.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "backend": "node backend/backend.js"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +22,11 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "bootstrap": "^4.0.0-beta",
     "core-js": "^2.4.1",
+    "json-server": "^0.12.0",
+    "material-design-icons": "^3.0.1",
+    "ng-bootstrap": "^1.6.3",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
   },

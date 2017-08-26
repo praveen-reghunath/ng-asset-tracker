@@ -1,0 +1,53 @@
+{
+    "funds": [
+        {
+            "id": 1,
+            "name": "DSP BlackRock Micro Cap Fund - Direct Plan - Growth",
+            "folio": "3761387",
+            "house": "DSP BlackRock",
+            "type": "growth"
+        },
+        {
+            "id": 2,
+            "name": "DSP BlackRock Liquidity Fund - Direct Plan - Growth",
+            "folio": "3761387",
+            "house": "DSP BlackRock",
+            "type": "growth"
+        }
+    ],
+    "transactions": [
+        {
+            "id": 1,
+            "fundId": "1",
+            "date": "21-Nov-2016",
+            "amount": "1000",
+            "type": "buy",
+            "nature": "lumpsum",
+            "nav": "48.768",
+            "units": "20.505",
+            "comments": "Purchase - via Online - DIRECT"
+        },
+        {
+            "id": 2,
+            "fundId": "1",
+            "date": "25-Nov-2016",
+            "amount": "25000",
+            "type": "buy",
+            "nature": "lumpsum",
+            "nav": "50.734",
+            "units": "492.766",
+            "comments": "Purchase - via Online - DIRECT"
+        },
+        {
+            "id": 3,
+            "fundId": "1",
+            "date": "29-Nov-2016",
+            "amount": "24000",
+            "type": "buy",
+            "nature": "lumpsum",
+            "nav": "51.441",
+            "units": "466.554",
+            "comments": "Purchase - via Online - DIRECT"
+        }
+    ]
+}
